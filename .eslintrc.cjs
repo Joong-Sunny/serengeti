@@ -146,6 +146,8 @@ module.exports = {
           'shadow-camera-right',
           'dispose',
           'object',
+          'angle',
+          'penumbra',
         ],
       },
     ],
