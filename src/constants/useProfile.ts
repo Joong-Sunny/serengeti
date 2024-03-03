@@ -13,17 +13,16 @@ export type UserProfileProps = {
 };
 
 export const USER_PROFILE: UserProfileProps = {
-  title: 'Serengeti 개발자 ',
-  name: '축얌',
-  education: '메이플대학 시그너스학과 소울마스터 졸업',
-  career: `레벨 277 달성, 무릉 61층, 제네시스 무기 해방, 유니온 8800,
-  검은마법사 격파, 더 시드, 50층 격파`,
-  field: '시너지 딜러',
+  title: '프론트엔드개발자',
+  name: '중써니',
+  education: '한양대학교 전기공학과',
+  career: `티맥스 슈퍼앱개발(2023~2024)`,
+  field: 'three.js 3D interaction 전문가',
   techStack: ['react', 'javascript', 'typescript', 'html', 'css', 'aws', 'mongodb', 'nginx'],
   number: '010-1234-5678',
-  email: 'serengti@serengti.net',
+  email: 'sunny.music111@gmail.com',
   notionPageId: '9110d2048ce0460084a576c0b09c012c',
-  githubLink: 'https://github.com/',
+  githubLink: 'https://github.com/joong-sunny',
   aboutMe:
-    '안녕하세요, 저는 Serengeti 개발자 축얌입니다..\n지금부터 제 소개를 시작해볼까 합니다.\n저에 대해 더 알고 싶으시다면\nScroll을 내려주세요.',
+    '안녕하세요, 성장하는개발자 윤중선입니다.\n지금부터 제 소개를 시작해볼까 합니다.\n저에 대해 더 알고 싶으시다면\nScroll을 내려주세요.',
 };
