@@ -104,16 +104,11 @@ const determineCameraKeysAndFactors = (scrollFactor: number, sectionRatio: Recor
     endKey = 'eighth';
     sectionStartFactor = section6;
     sectionEndFactor = section7;
-  } else if (scrollFactor < section8) {
+  } else {
     startKey = 'eighth';
     endKey = 'ninth';
     sectionStartFactor = section7;
     sectionEndFactor = section8;
-  } else {
-    startKey = 'ninth';
-    endKey = 'ninth';
-    sectionStartFactor = section8;
-    sectionEndFactor = 1;
   }
 
   const sectionScrollFactor = (scrollFactor - sectionStartFactor) / (sectionEndFactor - sectionStartFactor);
